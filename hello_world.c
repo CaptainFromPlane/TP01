@@ -15,6 +15,11 @@ int main() {
 	
 	for (unsigned int i = 0; i < 10; i++){
 		printf("i = %d\n",i);
-	}	
+	}
+	unsigned int wh = 0;
+	while (	wh < 10){
+		printf("while = %d\n",wh);
+		wh++;
+	}
 	return 0;
 }
